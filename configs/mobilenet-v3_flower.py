@@ -77,3 +77,4 @@ lr_config = dict(
 runner = dict(type='EpochBasedRunner', max_epochs=20)
 #工作目录
 --work_dir='/HOME/scz0be8/run/mmclassification/mmclassification-master/flower/work/mobilenet'
+
