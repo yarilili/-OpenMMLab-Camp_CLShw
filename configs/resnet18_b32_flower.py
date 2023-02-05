@@ -28,6 +28,6 @@ lr_config = dict(policy='step',step=[1])
 runner = dict(type='EpochBasedRunner', max_epochs=100)
 
 # 预训练模型
-load_from ='/HOME/shenpg/run/openmmlab/mmclassification/checkpoints/resnet18_batch256_imagenet_20200708-34ab8f90.pth'
+load_from ='/HOME/shenpg/run/mmclassification/mmclassification-master/checkpoints/resnet18_batch256_imagenet_20200708-34ab8f90.pth'
 #工作目录
 --work_dir='/HOME/scz0be8/run/mmclassification/mmclassification-master/flower/work/resnet'
